@@ -12,3 +12,10 @@ p {
   width: 500px;
   height: 500px;
 }
+
+.navbar {
+  color: rgb(160, 12, 110);
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 20px;
+}
