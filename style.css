@@ -43,7 +43,3 @@ table {
   background-color: aqua;
   border-radius: 20px;
 }
-label,
-input {
-  border-radius: 100px;
-}
