@@ -12,3 +12,25 @@ p {
   width: 500px;
   height: 500px;
 }
+/* pemnamabahan  */
+.navbar {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  padding-bottom: 200px;
+  padding-left: 200px;
+  background-color: rgb(48, 255, 158);
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px #888;
+  transition: width 2s;
+}
+.navbar:hover {
+  width: 500px;
+}
+#navbar {
+  transition-timing-function: linear;
+}
+
+table {
+  text-align: center;
+}
