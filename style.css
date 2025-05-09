@@ -34,3 +34,13 @@ p {
 table {
   text-align: center;
 }
+
+.form {
+  position: fixed;
+  bottom: 200px;
+  left: 30%;
+  padding: 100px;
+  background-color: aqua;
+  border-radius: 20px;
+}
+/* nanti coba  */
