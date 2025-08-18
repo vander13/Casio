@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Lomba</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Pendaftaran Lomba</h1>
+      <div>
+        <label for="nama">nama</label>
+        <input type="text" name="nama" id="nama" required />
+        <label for="lastnama">nama belakang</label>
+        <input type="text" name="lastnama" id="lastnama" required />
+      </div>
+
+      <p>jenis lomba</p>
+      <div>
+        <label for="lari">lari</label>
+        <input type="radio" name="lomba" id="lari" value="lari" />
+      </div>
+      <div>
+        <label for="berenang">berenang</label>
+        <input type="radio" name="lomba" id="berenang" value="berenang" />
+      </div>
+      <div>
+        <label for="tidur">Tidur</label>
+        <input type="radio" name="lomba" id="tidur" value="tidur" />
+      </div>
+      <p>emial dan password</p>
+      <div>
+        <label for="email">email :</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="tolong disii"
+        />
+      </div>
+      <label for="password">password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        required
+        placeholder="wajibdisi"
+      /><br />
+      <label for="umur">umur</label>
+      <select name="umur" id="umur" aria-placeholder="tolong">
+        <option value=""></option>
+        <option value="muda">10-20</option>
+        <option value="dewasa">10-30</option>
+        <option value="tua">10-50</option>
+      </select>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
+<!-- http://127.0.0.1:5500/registration.html?nama=dsd&lastnama=lembong&lari=berenang&email=evanderpaskalis%40gmail.com&password=dasdasd&umur=muda -->
