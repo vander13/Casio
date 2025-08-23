@@ -1,10 +1,15 @@
-body {
-  background-color: #e4004b;
+* {
+  margin: 0;
+  padding: 0;
 }
 h1 {
   color: aquamarine;
   text-align: center;
-  text-decoration: black line-through;
+}
+.judul_pertama {
+  font-size: 90px;
+  letter-spacing: 50%;
+  font-family: ui-rounded;
 }
 h2 {
   color: rgb(142, 187, 198);
@@ -35,4 +40,10 @@ body span {
 }
 a {
   text-decoration: none;
+}
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  float: right;
 }

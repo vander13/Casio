@@ -1,0 +1,27 @@
+* {
+  color: rgb(33, 199, 199);
+  background-color: black;
+}
+h1,
+h2 {
+  color: magenta;
+}
+#pencarian {
+  width: 100px;
+  height: 100px;
+  color: #a2af9b;
+  background-color: #faf9ee;
+  font-size: 1em;
+  font-weight: bolder;
+}
+.text {
+  text-decoration: none;
+  font-size: 2.5em;
+  background-color: antiquewhite;
+}
+.tag {
+  text-decoration: none;
+}
+.kaki a {
+  background-color: #a2af9b;
+}
