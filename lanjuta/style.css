@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+}
+
+.satu {
+  background-color: magenta;
+  border: 2px solid blue;
+  width: 200px;
+  text-align: justify;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+section .dua {
+  background-color: magenta;
+  border: 2px solid blue;
+  width: 200px;
+}
+section .tiga {
+  background-color: magenta;
+  border: 2px solid blue;
+  width: 200px;
+
+  border-radius: 1px 0 3px 4px;
+}
+.card {
+  margin: auto;
+  width: 210px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+.card img {
+  width: 200px;
+  border: 5px solid rgb(236, 183, 191);
+  border-radius: 50%;
+}
+button {
+  background-color: aqua;
+  padding: 5px;
+}
+button:hover {
+  background-color: yellow;
+}
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(118, 166, 208);
+}
+span .inline-box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(210, 178, 135);
+}

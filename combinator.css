@@ -35,3 +35,16 @@ p::selection {
   margin-left: 10px;
   font-weight: bold;
 }
+.post:hover {
+  background-color: bisque;
+  font-size: 1.5rem;
+  border-radius: 200px;
+}
+ul .buah #apel li {
+  color: red;
+}
+.gambar {
+  width: 20%;
+  box-sizing: border-box;
+  padding: 20px;
+}
